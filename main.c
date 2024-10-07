@@ -5,9 +5,9 @@
 #include "SortFunc.h"
 #include "SearchFunc.h"
 
-#define TAM 10;						// Tamanho do vetor criado aleatóriamente.
-#define VALOR_BUSCA_SEQ 22;			// Valores a serem buscados no vetor através
-#define VALOR_BUSCA_BIN 35;			// da busca sequencial e binária, respectivamente.
+#define TAM 10					// Tamanho do vetor criado aleatoriamente.
+#define VALOR_BUSCA_SEQ 22			// Valores a serem buscados no vetor através
+#define VALOR_BUSCA_BIN 35			// da busca sequencial e binária, respectivamente.
 
 /************************* funções auxiliares *************************/
 
@@ -20,9 +20,9 @@ void criaVetor(int *vetor, int tam)
 	for (i = 0; i < tam; i++)
    		vetor[i] = (rand() % 100);
 
-    for (i = 0; i < tam; i++)
+	for (i = 0; i < tam; i++)
     	printf("%d ", vetor[i]);
-    printf("\n");
+	printf("\n");
 }
 
 // Imprime um vetor que já passou por algum algoritmo de ordenação.
@@ -57,7 +57,7 @@ int main()
 	}
 
 	clock_t start, end;
-    double total;
+	double total;
 
 	// -------------------------------------------------------
 	/************************************
