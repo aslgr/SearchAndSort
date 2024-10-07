@@ -2,7 +2,7 @@
 This project implements sorting and searching algorithms.
 
 ## Introduction
-This code was designed to demonstrate the implementation of various sorting and searching algorithms. Thanks to that, we are able to explore Insertion Sort, Selection Sort, Merge Sort, and Quick Sort, each with its distinct approach to rearranging elements in an array. Additionally, two algorithms for searching through arrays, Sequential Search and Binary Search, were implemented as well.
+This code was designed to demonstrate the implementation of various sorting and searching algorithms. Thanks to that, we are able to explore Insertion Sort, Selection Sort, Merge Sort, and Quick Sort, each with its distinct approach to rearranging elements in an array. Additionally, two algorithms for searching through arrays, Sequential Search and Binary Search, were implemented.
 
 ### Sorting Algorithms
 1. Insertion Sort: This algorithm builds the sorted list one element at a time. The algorithm repeatedly inserts the next element into its correct position among the already sorted elements. Time complexity: O(n²) in the worst case.
