@@ -1,4 +1,4 @@
-# SearchAndSort
+# SortAndSearch
 This project implements sorting and searching algorithms.
 
 ## Introduction
